@@ -170,7 +170,7 @@ function reduceAce(cardSum, cardAceCount) {
         cardAceCount -= 1;
     }
     let returnArray = [];
-    returnArray.push(cardSum)
-    returnArray.push(cardAceCount)
+    returnArray.push(cardSum);
+    returnArray.push(cardAceCount);
     return returnArray;
 }
